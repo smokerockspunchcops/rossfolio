@@ -794,7 +794,6 @@ a:focus,
     transition:all 0.3s ease-out;
 }
 
-/*
 .project-item .hover-mask:after{
     display:block;
     position:absolute;
@@ -804,7 +803,6 @@ a:focus,
     left:175px;
     color:#fff;
 }
-*/
 
 .masonry,
 .masonry .masonry-brick {
