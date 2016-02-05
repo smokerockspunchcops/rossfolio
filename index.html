@@ -23,18 +23,19 @@
             font-family: 'Inconsolata';
         }
         
-/*
         .page {
             position: fixed;
             top: 50%;
             left: 50%;
-            margin-left: -75px;
-            margin-top: -50px;
+            margin-left: -90px;
+            margin-top: -120px;
             background-color: #fff;
-            width: 150px;
-            height: 100px;
+            width: 180px;
+            height: 240px;
+            box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 2px;
+            border: 0;
         }
-*/
         
         html {
             background: url(assets/pillarsOfCreation2560x1440.jpg) no-repeat center center fixed;
@@ -51,8 +52,10 @@
             margin-left: -75px;
             margin-top: -50px;
         }
+        
         .underwater {
-            
+            width: 180px;
+            border-radius: 2px 2px 0 0;
         }
         
         .inner {
@@ -60,13 +63,28 @@
         }
         
         h1 {
-            font-size: 1em;
-            margin: 6px;
+            font-size: 1.2em;
+            margin: 6px
         }
         
         p {
-            font-size: .5em;
-            margin-bottom: 12px;
+            font-size: .7em;
+            margin: 2px;
+        }
+        
+        .links {
+            margin: 22px;
+            font-size: 1.5em;
+        }
+        
+        .links a,
+        .links a:visited {
+            color: black!important;
+        }
+        
+        .links a:hover,
+        .links a:active {
+            color: black!important;
         }
     </style>
 
@@ -76,7 +94,6 @@
 <body>
 
     <div class="page">
-<!--
         <img class="underwater" src="assets/scubaBro.jpg">
 
         <div class="inner">
@@ -84,13 +101,12 @@
             <p>Bay Area, California</p>
 
             <div class="links">
-                <i class="fa fa-twitter fa-fw"></i>
-                <i class="fa fa-angellist fa-fw"></i>
-                <i class="fa fa-linkedin-square fa-fw"></i>
+                <a href="https://twitter.com/Poopstergram" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+                <a href="https://angel.co/ross-dyson" target="_blank"><i class="fa fa-angellist fa-fw"></i></a>
+                <a href="https://www.linkedin.com/in/dysoro" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i></a>
             </div>
         </div>
--->
-        <img class="pikachu" src="assets/pikachu.gif">
+        <!--        <img class="pikachu" src="assets/pikachu.gif">-->
     </div>
 
 </body>
