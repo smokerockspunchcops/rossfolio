@@ -6,7 +6,7 @@
      /* Set rules to fill background */
      min-height: 100%;
      /* Set up proportionate scaling */
-     width: 55%;
+     width: 70%;
      height: auto;
      /* Set up positioning */
      position: fixed;
@@ -15,7 +15,7 @@
  }
  
  .infoboxContainer {
-     width: 45%;
+     width: 30%;
      float: right;
  }
  
@@ -32,6 +32,12 @@
      position: relative;
      text-align: center;
  }
+
+.bioText p {
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 14px;
+}
  
  .tile {
      position: fixed;
