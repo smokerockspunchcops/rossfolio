@@ -1,0 +1,94 @@
+ body {
+     font-family: 'Inconsolata';
+ }
+ 
+ .page {
+     /* Set rules to fill background */
+     min-height: 100%;
+     /* Set up proportionate scaling */
+     width: 55%;
+     height: auto;
+     /* Set up positioning */
+     position: fixed;
+     top: 0;
+     left: 0;
+ }
+ 
+ .infoboxContainer {
+     width: 45%;
+     float: right;
+ }
+ 
+ .infobox {
+     padding: 40px;
+ }
+ 
+ .profileImgContainer {
+     position: relative;
+     text-align: center;
+ }
+ 
+ .bioText {
+     position: relative;
+     text-align: center;
+ }
+ 
+ .tile {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     margin-left: -90px;
+     margin-top: -120px;
+     background-color: #fff;
+     width: 180px;
+     height: 240px;
+     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 2px;
+     border: 0;
+ }
+ 
+ .pikachu {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     margin-left: -75px;
+     margin-top: -50px;
+ }
+ 
+ .underwater {
+     width: 180px;
+     border-radius: 2px 2px 0 0;
+ }
+ 
+ .inner {
+     text-align: center;
+ }
+ 
+ h1 {
+     font-size: 1.2em;
+     margin: 6px
+ }
+ 
+ p {
+     font-size: .7em;
+     margin: 2px;
+ }
+ 
+ .links {
+     margin: 22px;
+     font-size: 1.5em;
+ }
+ 
+ .links a,
+ .links a:visited {
+     color: black!important;
+ }
+ 
+ .links a:hover,
+ .links a:active {
+     color: black!important;
+ }
+ 
+ .what {
+     font-size: .7em;
+ }
