@@ -17,10 +17,38 @@
 
     <style>
         body {
+            min-height: 100%;
             font-family: 'Inconsolata';
         }
         
+        html {
+            background: url(assets/pillarsOfCreation2560x1440.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-height: 100%;
+        }
+        
+        .feature {
+            position: relative;
+        }
+        
+        .feature a {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            text-decoration: none;
+            z-index: 10;
+            background-color: #FFF;
+            opacity: 0;
+            filter: alpha(opacity=1);
+        }
+        
         .page {
+            z-index: 11;
             position: fixed;
             top: 50%;
             left: 50%;
@@ -32,15 +60,6 @@
             box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             border-radius: 2px;
             border: 0;
-        }
-        
-        html {
-            background: url(assets/pillarsOfCreation2560x1440.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-            min-height: 100%;
         }
         
         .pikachu {
@@ -84,6 +103,7 @@
         .links a:active {
             color: black!important;
         }
+        
         .what {
             font-size: .7em;
         }
@@ -92,7 +112,11 @@
 
 </head>
 
-<body>
+<body data-link="https://en.wikipedia.org/wiki/Pillars_of_Creation">
+
+    <div class="feature">
+        <a href="http://en.wikipedia.org/wiki/Pillars_of_Creation" target="_blank"></a>
+    </div>
 
     <div class="page">
         <img class="underwater" src="assets/scubaBro.jpg">
@@ -100,18 +124,19 @@
         <div class="inner">
             <h1>Ross Dyson</h1>
             <p>San Francisco today,
-            <br/> space tomorrow
+                <br/> Space tomorrow.
             </p>
 
             <div class="links">
-                <a href="https://twitter.com/justrossthings"><i class="fa fa-twitter fa-fw"></i></a>
-                <a href="https://angel.co/ross-dyson"><i class="fa fa-angellist fa-fw"></i></a>
-                <a href="https://www.linkedin.com/in/dysoro"><i class="fa fa-linkedin-square fa-fw"></i></a>
+                <a href="https://twitter.com/justrossthings" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+                <a href="https://angel.co/justrossthings" target="_blank"><i class="fa fa-angellist fa-fw"></i></a>
+                <a href="https://www.linkedin.com/in/dysoro" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i></a>
             </div>
-            <a class="what" href="https://en.wikipedia.org/wiki/Pillars_of_Creation" target="_blank">What am I looking at?</a>
+            <!--            <a class="what" href="https://en.wikipedia.org/wiki/Pillars_of_Creation" target="_blank">What am I looking at?</a>-->
         </div>
         <!--        <img class="pikachu" src="assets/pikachu.gif">-->
     </div>
+
 
 </body>
 
