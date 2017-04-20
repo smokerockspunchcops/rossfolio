@@ -7,7 +7,7 @@
         "headers": [
           {
             "key": "Link",
-            "value": "<style.css>;rel=preload;as=style"
+            "value": "<styles.css>;rel=preload;as=style"
           }
         ]
       }
