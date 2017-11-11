@@ -3,35 +3,62 @@
 
 <head>
 
-    <!-- Title and Meta tags -->
-    <meta charset="utf-8">
-    <title>Ross Dyson</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Title and Meta tags -->
+	<meta charset="utf-8">
+	<title>Ross Dyson</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Resources -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<!-- Resources -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 <div class="feature">
-    <a href="http://en.wikipedia.org/wiki/Pillars_of_Creation" target="_blank"></a>
+	<a href="http://en.wikipedia.org/wiki/Pillars_of_Creation" target="_blank"></a>
 </div>
 <div class="page">
-    <div class="inner">
-        <h1>Ross Dyson</h1>
-        <p>what a <i class="em em-clock4"></i> 2 b alive</p>
-        <div class="links">
-            <a href="https://github.com/justrossthings" class="textLink" target="_blank">Github</a>
-            <a href="mailto:iam@rossdyson.com" class="textLink" target="_blank">Contact</a>
-        </div>
-    </div>
+	<div class="inner">
+		<h1>Ross Dyson</h1>
+		<p>what a time to be alive.</p>
+		<div class="links">
+			<a href="https://github.com/justrossthings" class="textLink" target="_blank">Github</a>
+			<a href="mailto:me@rossdyson.com" class="textLink" target="_blank">Contact</a>
+		</div>
+	</div>
 </div>
 <script>
-  (function(w, u, d){if(typeof u!=="function"){var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Upscope=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://js.upscope.io/upscope.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(d.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})(window, window.Upscope, document)
+  (function (w, u, d) {
+    if (typeof u !== "function") {
+      var i = function () {
+        i.c(arguments)
+      };
+      i.q = [];
+      i.c = function (args) {
+        i.q.push(args)
+      };
+      w.Upscope = i;
+      function l() {
+        var s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://js.upscope.io/upscope.js';
+        var x = d.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+
+      if (d.readyState === 'complete') {
+        l();
+      } else if (w.attachEvent) {
+        w.attachEvent('onload', l);
+      } else {
+        w.addEventListener('load', l, false);
+      }
+    }
+  })(window, window.Upscope, document)
 
   Upscope('init', {
     apiKey: "EjGoQKQnWvMiTkJ774edMGD5",
@@ -39,6 +66,30 @@
     integrateWithLivechat: false
   });
 </script>
+<!-- Start of Async Drift Code -->
+<script>
+  !function () {
+    var t;
+    if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+      t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+      t.factory = function (e) {
+        return function () {
+          var n;
+          return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function (e) {
+      t[e] = t.factory(e);
+    }), t.load = function (t) {
+      var e, n, o, i;
+      e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+    });
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('dd9nkmsag2sd');
+</script>
+<!-- End of Async Drift Code -->
 </body>
 
 </html>
