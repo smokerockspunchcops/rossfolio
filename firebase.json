@@ -1,16 +1,10 @@
 {
   "hosting": {
     "public": ".",
-    "headers": [
-      {
-        "source": "/",
-        "headers": [
-          {
-            "key": "Link",
-            "value": "<styles.css>;rel=preload;as=style"
-          }
-        ]
-      }
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
     ]
   }
 }
