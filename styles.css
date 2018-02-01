@@ -1,6 +1,7 @@
 body {
   min-height: 100%;
   font-family: 'Inconsolata';
+  margin: 0;
 }
 
 html {
@@ -77,20 +78,31 @@ p {
   /*            font-size: 1.5em;*/
 }
 
-.links a,
-.links a:visited {
+.textLink,
+.textLink:visited,
+.textLink:hover,
+.textLink:active {
   color: black!important;
-}
-
-.links a:hover,
-.links a:active {
-  color: black!important;
-}
-
-.textLink {
   font-size: 12px;
 }
 
 .what {
   font-size: .7em;
+}
+
+.inverted-textLink,
+.inverted-textLink:hover,
+.inverted-link:active,
+.inverted-link:visited {
+  color: white !important;
+  font-size: 12px;
+}
+
+.banner {
+  position: relative;
+  padding-top: 2px;
+  padding-bottom: 6px;
+  background-color: black;
+  text-align: center;
+  z-index: 9999;
 }
