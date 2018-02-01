@@ -100,8 +100,9 @@ p {
 
 .banner {
   position: relative;
-  padding-top: 2px;
-  padding-bottom: 6px;
+  padding: 6px;
+  color: white;
+  font-size: 12px;
   background-color: black;
   text-align: center;
   z-index: 9999;
